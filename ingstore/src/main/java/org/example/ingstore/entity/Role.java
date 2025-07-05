@@ -9,7 +9,7 @@ import java.io.Serializable;
 import java.util.Set;
 
 @Entity
-@Table(name = "users")
+@Table(name = "roles")
 @Getter
 @Setter
 @NoArgsConstructor
@@ -17,7 +17,7 @@ import java.util.Set;
 @Builder
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @ToString(onlyExplicitlyIncluded = true)
-public class User implements Serializable {
+public class Role implements Serializable {
 
     @Serial
     private static final long serialVersionUID = 1L;
@@ -32,23 +32,9 @@ public class User implements Serializable {
     @Column(nullable = false, unique = true)
     @EqualsAndHashCode.Include
     @ToString.Include
-    private String username;
+    private String name;
 
-    @NotBlank
-    @Column(nullable = false, unique = true)
-    private String email;
-
-    @NotBlank
-    @Column(nullable = false)
+    @ManyToMany(mappedBy = "roles")
     @ToString.Exclude
-    private String password;
-
-    @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(
-            name = "user_roles",
-            joinColumns = @JoinColumn(name = "user_id"),
-            inverseJoinColumns = @JoinColumn(name = "role_id")
-    )
-    private Set<Role> roles;
-
+    private Set<User> users;
 }
