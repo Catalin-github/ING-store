@@ -1,4 +1,4 @@
-package com.example.ing;
+package com.example.ingprj;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
