@@ -36,6 +36,13 @@ public final class AppConstants {
     public static final String PRODUCT_DELETE_SUCCESS = "Product deleted successfully";
     public static final String PRODUCT_NOT_FOUND_WITH_ID = "Product not found with id ";
 
+    // Error Messages for JWT validation
+    public static final String ERROR_INVALID_JWT = "Invalid JWT token: {}";
+    public static final String ERROR_EXPIRED_JWT = "JWT token is expired: {}";
+    public static final String ERROR_UNSUPPORTED_JWT = "JWT token is unsupported: {}";
+    public static final String ERROR_INVALID_SIGNATURE = "Invalid JWT signature: {}";
+    public static final String ERROR_EMPTY_CLAIMS = "JWT claims string is empty: {}";
+
     // User Response Messages
     public static final String USER_CREATE_SUCCESS = "User created successfully";
     public static final String USER_FETCH_SUCCESS = "User fetched successfully";
