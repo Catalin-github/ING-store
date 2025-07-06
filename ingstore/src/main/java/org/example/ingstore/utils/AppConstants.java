@@ -23,6 +23,8 @@ public final class AppConstants {
     public static final String PRODUCT_BASE_PATH = "/api/products";
     public static final String USER_BASE_PATH = "/api/users";
     public static final String CREATE_PATH = "/create";
+    public static final String AUTH_WHITELIST = "/api/auth/**";
+
 
     // Role constants
     public static final String ROLE_ADMIN = "ROLE_ADMIN";
