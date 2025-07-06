@@ -37,4 +37,9 @@ public class Role implements Serializable {
     @ManyToMany(mappedBy = "roles")
     @ToString.Exclude
     private Set<User> users;
+
+    public Role(String name) {
+        this.name = name;
+    }
+
 }

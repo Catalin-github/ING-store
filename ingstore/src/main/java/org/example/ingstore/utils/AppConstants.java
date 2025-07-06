@@ -24,8 +24,9 @@ public final class AppConstants {
     public static final String USER_BASE_PATH = "/api/users";
     public static final String CREATE_PATH = "/create";
 
-
-    public static final String PRODUCT_NOT_FOUND_WITH_ID = "Product not found with id ";
+    // Role constants
+    public static final String ROLE_ADMIN = "ROLE_ADMIN";
+    public static final String ROLE_USER = "ROLE_USER";
 
     // Product Response Messages
     public static final String PRODUCTS_FETCH_SUCCESS = "Products fetched successfully";
@@ -33,6 +34,7 @@ public final class AppConstants {
     public static final String PRODUCT_CREATE_SUCCESS = "Product created successfully";
     public static final String PRODUCT_UPDATE_SUCCESS = "Product updated successfully";
     public static final String PRODUCT_DELETE_SUCCESS = "Product deleted successfully";
+    public static final String PRODUCT_NOT_FOUND_WITH_ID = "Product not found with id ";
 
     // User Response Messages
     public static final String USER_CREATE_SUCCESS = "User created successfully";
@@ -50,5 +52,16 @@ public final class AppConstants {
     public static final int STATUS_BAD_REQUEST = 400;
     public static final int STATUS_INTERNAL_SERVER_ERROR = 500;
 
+    // Security
+    public static final String AUTHORIZATION_HEADER = "Authorization";
+    public static final String BEARER_PREFIX = "Bearer ";
+    public static final int BEARER_TOKEN_START_INDEX = 7;
+    public static final int JWT_EXPIRATION_MS = 86400000; // 1 day in milliseconds
+    public static final String ADMIN_PASSWORD_KEY = "${admin.password}";
+    public static final String JWT_SECRET_KEY = "${jwt.secret}";
+
+    // User constants
+    public static final String ADMIN_USERNAME = "Samuel-Catalin";
+    public static final String ADMIN_EMAIL = "m.samuelcatalin@gmail.com";
 }
 
