@@ -9,4 +9,6 @@ public final class AppConstants {
     public static final String ROLE_CREATED_SUCCESS = "Creating new role with name: {} ";
     public static final String ROLE_DELETED_SUCCESS = "Role with ID: {} deleted successfully";
     public static final String ROLE_NOT_FOUND = "Role not found: %s";
+
+    public static final String PRODUCT_NOT_FOUND_WITH_ID = "Product not found with id ";
 }
