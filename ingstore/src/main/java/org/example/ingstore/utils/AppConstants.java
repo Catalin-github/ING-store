@@ -21,6 +21,9 @@ public final class AppConstants {
     public static final String ROLE_BASE_PATH = "/api/roles";
     public static final String GET_BY_ID_PATH = "/{id}";
     public static final String PRODUCT_BASE_PATH = "/api/products";
+    public static final String USER_BASE_PATH = "/api/users";
+    public static final String CREATE_PATH = "/create";
+
 
     public static final String PRODUCT_NOT_FOUND_WITH_ID = "Product not found with id ";
 
@@ -31,6 +34,12 @@ public final class AppConstants {
     public static final String PRODUCT_UPDATE_SUCCESS = "Product updated successfully";
     public static final String PRODUCT_DELETE_SUCCESS = "Product deleted successfully";
 
+    // User Response Messages
+    public static final String USER_CREATE_SUCCESS = "User created successfully";
+    public static final String USER_FETCH_SUCCESS = "User fetched successfully";
+    public static final String USERS_FETCH_ALL_SUCCESS = "All users fetched successfully";
+    public static final String USER_UPDATE_SUCCESS = "User updated successfully";
+    public static final String USER_DELETE_SUCCESS = "User deleted successfully";
 
     // HTTP Status Codes
     public static final int HTTP_STATUS_OK = 200;
