@@ -25,6 +25,14 @@ public final class AppConstants {
     public static final String CREATE_PATH = "/create";
     public static final String AUTH_WHITELIST = "/api/auth/**";
 
+    // Validation Errors
+    public static final String RESOURCE_NOT_FOUND = "ResourceNotFoundException: {}";
+    public static final String BAD_CREDENTIALS = "BadCredentialsException: Invalid credentials provided.";
+    public static final String USERNAME_NOT_FOUND = "UsernameNotFoundException: {}";
+    public static final String VALIDATION_FAILED = "Validation failed: {}";
+    public static final String GENERIC_ERROR = "Unexpected error occurred: {}";
+    public static final String INVALID_CREDENTIALS = "Invalid username or password";
+    public static final String GENERIC_ERROR_MESSAGE = "An unexpected error occurred. Please try again later.";
 
     // Role constants
     public static final String ROLE_ADMIN = "ROLE_ADMIN";
@@ -60,6 +68,21 @@ public final class AppConstants {
     public static final int STATUS_UNAUTHORIZED = 401;
     public static final int STATUS_BAD_REQUEST = 400;
     public static final int STATUS_INTERNAL_SERVER_ERROR = 500;
+
+    // User-related messages
+    public static final String USER_CREATE_LOG = "Creating new user with username: {}";
+    public static final String USER_CREATED_WITH_ID = "User created with ID: {}";
+    public static final String ATTEMPT_FIND_USER_BY_ID = "Attempting to find user by ID: {}";
+    public static final String USER_NOT_FOUND_USERNAME = "User not found with username: %s";
+    public static final String USER_NOT_FOUND_ID = "User not found with id %d";
+    public static final String USER_NOT_FOUND_ID_LOG = "User not found with id: {}";
+    public static final String USER_NOT_FOUND_BY_ID = "No user found with ID: {} in the system.";
+    public static final String USER_FOUND_LOG = "User found: {}";
+    public static final String DELETING_USER_WITH_ID = "Deleting user with ID: {}";
+    public static final String USER_DELETED_WITH_ID = "User with ID: {} deleted successfully";
+    public static final String UPDATING_USER_WITH_ID = "Updating user with ID: {}";
+    public static final String USER_UPDATED_WITH_ID = "User with ID: {} updated successfully";
+
 
     // Security
     public static final String AUTHORIZATION_HEADER = "Authorization";
