@@ -6,7 +6,12 @@ public final class AppConstants {
     }
 
     // Api constants
-    public static final String AUTH_WHITELIST = "/api/auth/**";
+    public static final String[] AUTH_WHITELIST = {
+            "/api/auth/**",
+            "/v3/api-docs/**",
+            "/swagger-ui/**",
+            "/swagger-ui.html"
+    };
     public static final String AUTH_BASE_PATH = "/api/auth";
     public static final String LOGIN_PATH = "/login";
     public static final String LOGOUT_PATH = "/logout";
