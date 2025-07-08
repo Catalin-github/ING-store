@@ -24,7 +24,7 @@ public class BootstrapConfig {
     private final RoleRepository roleRepository;
     private final PasswordEncoder passwordEncoder;
 
-    @Value(ADMIN_PASSWORD_KEY)
+    @Value("${admin.password}")
     private String adminPassword;
 
     @Autowired

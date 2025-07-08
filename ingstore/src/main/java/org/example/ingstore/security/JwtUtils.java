@@ -16,7 +16,7 @@ public class JwtUtils {
 
     private static final Logger logger = LoggerFactory.getLogger(JwtUtils.class);
 
-    @Value(JWT_SECRET_KEY)
+    @Value("${jwt.secret}")
     private String jwtSecret;
 
     public String generateJwtToken(Authentication authentication) {

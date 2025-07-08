@@ -5,6 +5,21 @@ public final class AppConstants {
         // Prevent instantiation
     }
 
+    // Api constants
+    public static final String AUTH_WHITELIST = "/api/auth/**";
+    public static final String AUTH_BASE_PATH = "/api/auth";
+    public static final String LOGIN_PATH = "/login";
+    public static final String LOGOUT_PATH = "/logout";
+    public static final String PRODUCT_BASE_PATH = "/api/products";
+    public static final String GET_BY_ID_PATH = "/{id}";
+    public static final String ROLE_BASE_PATH = "/api/roles";
+    public static final String USER_BASE_PATH = "/api/users";
+    public static final String CREATE_PATH = "/create";
+
+    // Response messages
+    public static final String LOGIN_SUCCESS_MESSAGE = "Login successful";
+    public static final String LOGOUT_SUCCESS_MESSAGE = "Logout successful";
+
     // Role related messages
     public static final String ROLE_NOT_FOUND_WITH_ID = "Role not found with id {}";
     public static final String ROLE_CREATED_SUCCESS = "Creating new role with name: {} ";
@@ -18,12 +33,6 @@ public final class AppConstants {
     public static final String ROLE_UPDATE_SUCCESS = "Role updated successfully";
     public static final String ROLE_DELETE_SUCCESS = "Role deleted successfully";
 
-    public static final String ROLE_BASE_PATH = "/api/roles";
-    public static final String GET_BY_ID_PATH = "/{id}";
-    public static final String PRODUCT_BASE_PATH = "/api/products";
-    public static final String USER_BASE_PATH = "/api/users";
-    public static final String CREATE_PATH = "/create";
-    public static final String AUTH_WHITELIST = "/api/auth/**";
 
     // Validation Errors
     public static final String RESOURCE_NOT_FOUND = "ResourceNotFoundException: {}";
@@ -88,9 +97,7 @@ public final class AppConstants {
     public static final String AUTHORIZATION_HEADER = "Authorization";
     public static final String BEARER_PREFIX = "Bearer ";
     public static final int BEARER_TOKEN_START_INDEX = 7;
-    public static final int JWT_EXPIRATION_MS = 86400000; // 1 day in milliseconds
-    public static final String ADMIN_PASSWORD_KEY = "${admin.password}";
-    public static final String JWT_SECRET_KEY = "${jwt.secret}";
+    public static final int JWT_EXPIRATION_MS = 86400000; // 1 day
 
     // User constants
     public static final String ADMIN_USERNAME = "Samuel-Catalin";
