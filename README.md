@@ -42,7 +42,7 @@ Unit Tests:
 Installation and Setup
 
 Clone the repository:
-git clone https://github.com/Catalin-github/ing-store-management-tool.git
+git clone https://github.com/Catalin-github/ING-store.git
 cd ing-store-management-tool
 Configure the MySQL database:
 
