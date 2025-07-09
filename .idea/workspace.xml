@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9f3f09-0321-4bd6-9be1-3985a744b221" name="Changes" comment="" />
+    <list default="true" id="cc9f3f09-0321-4bd6-9be1-3985a744b221" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ing/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ing/compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ing/src/main/java/com/example/ingprj/IngApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ing/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ing/src/test/java/com/example/ingprj/IngApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +29,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2zSg1yEkQeWx6uN8RTGIfWUQqPE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,8 +41,9 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/ING_Assignment/ING-store"
+    "last_opened_file_path": "D:/ING_Assignment"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -53,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1751729676717</updated>
       <workItem from="1751729677829" duration="800000" />
+      <workItem from="1751734640801" duration="35000" />
     </task>
     <servers />
   </component>
